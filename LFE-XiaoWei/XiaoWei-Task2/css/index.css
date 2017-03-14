@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    background-color:#DEDEDE;
+}
+h1{
+    font-size:20px;
+}
+h2{
+    font-size:15px;
+    color:#6C6D6F;
+    padding:21px 0 18px 0;
+
+}
+p{
+    font-size:14px;
+    line-height:27px;
+    text-indent:28px;
+}
+/*ͨ�������� nav*/
+nav{
+    width:100%;
+    height:60px;
+    background:#333 url("../images/task_1_2_1_r2_c2.jpg") no-repeat;
+}
+nav ul{
+    float:right;
+}
+nav li{
+    list-style:none;
+    display:inline-block;
+    height:60px;
+    font:400 11px/60px "simsun";
+}
+nav a{
+    color:#fff;
+    text-decoration:none;
+}
+/*container*/
+section{
+    margin:21px;
+    padding:40px 21px 21px;
+    background-color:#fff;
+}
+section .author{
+    color:#6C6D6F;
+    padding-bottom:21px;
+    font-size:12px;
+    text-indent:0;
+}
+section ul{
+    padding-top:22px;
+    padding-left:39px;
+}
+/*ͼƬ*/
+.contPic article{
+    width:120px;
+    height:124px;
+    border:1px solid #CECECE;
+    text-align:center;
+    margin:15px 38px;
+}
+.contPic article img{
+    width:100px;
+    height:81px;
+    margin:3px 10px 10px 10px;
+}
+figcaption{
+    padding:10px 0;
+    font-size:11px;
+    line-height:10px;
+}
+/*last page*/
+.lastPage ol{
+    margin-left:22px;
+    font-size:12px;
+    padding-bottom:24px;
+}
+.lastPage span{
+    font-size:14px;
+}
+.lastPage table{
+    border-collapse:collapse;
+    width:80%;
+}
+.lastPage tr{
+    height:24px;
+    line-height:24px;
+}
+.lastPage td{
+    padding-left:6px;
+}
+.lastPage thead tr{
+    background-color:#333333;
+    font:700 13px "simsun";
+    color:#fff;
+}
+.lastPage tbody tr{
+    font-size:11px;
+}
+.lastPage tfoot tr{
+    background-color:#CCCCCC;
+    font:700 13px "simsun";
+}
+/*���� aside*/
+aside{
+    margin:0 40px 18px 22px;
+    background-color:#fff;
+}
+aside h1{
+    display:inline-block;
+    height:36px;
+    font-size:17px;
+    line-height:36px;
+    border-left:3px solid #CCCCCC;
+    margin-top:20px;
+    margin-left:20px;
+    padding-left:11px;
+}
+aside article table{
+    width:100%;
+    height:356px;
+    font-size:14px;
+    border-collapse:collapse;
+}
+aside td{
+    height:42px;
+}
+aside td:nth-child(odd){
+    text-align:right;
+    padding-right:13px;
+}
+.message{
+    color:#9D9D9B;
+}
+td textarea{
+    width:70%;
+    height:96px;
+}
+input[type="submit"]{
+    width:100%;
+    height:38px;
+    background:#3355D0;
+    border-radius:10px;
+    margin-top:5px;
+    font:700 16px "simsun" ;
+    color:#fff;
+}
+footer{
+    height:70px;
+    background:#000000;
+    text-align:center;
+    font:600 14px/50px "microsoft yahei";
+    color:#fff;
+}
